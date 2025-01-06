@@ -8,6 +8,10 @@
 .#{variables.$ms-prefix}-5x { font-size: 3.75em; }
 .#{variables.$ms-prefix}-6x { font-size: 4.5em; }
 
+.#{variables.$ms-prefix}-inherit {
+	font-size: inherit !important;
+}
+
 /*
  * Fixed width */
 

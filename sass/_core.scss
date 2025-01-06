@@ -4,7 +4,8 @@
 
 .#{variables.$ms-prefix} {
     display: inline-block;
-    font: normal normal normal variables.$ms-font-size-base Mana;
+	margin: -4px 1px 0;
+    font: normal normal normal variables.$ms-font-size-base var(--font-mana, Mana);
     font-size: inherit;
     line-height: 1em;
     text-rendering: auto;
@@ -15,4 +16,8 @@
     // Better font rendering
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+a.#{variables.$ms-prefix} {
+	color: #111 !important;
 }
